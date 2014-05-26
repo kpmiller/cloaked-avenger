@@ -1,0 +1,467 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F09AAAAF193140BF00C39F49 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F09AAAAE193140BF00C39F49 /* Cocoa.framework */; };
+		F09AAAB9193140BF00C39F49 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = F09AAAB7193140BF00C39F49 /* InfoPlist.strings */; };
+		F09AAABB193140BF00C39F49 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F09AAABA193140BF00C39F49 /* main.m */; };
+		F09AAABF193140BF00C39F49 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = F09AAABD193140BF00C39F49 /* Credits.rtf */; };
+		F09AAAC2193140BF00C39F49 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F09AAAC1193140BF00C39F49 /* AppDelegate.m */; };
+		F09AAAC5193140BF00C39F49 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = F09AAAC3193140BF00C39F49 /* MainMenu.xib */; };
+		F09AAAC7193140BF00C39F49 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F09AAAC6193140BF00C39F49 /* Images.xcassets */; };
+		F09AAACE193140BF00C39F49 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F09AAACD193140BF00C39F49 /* XCTest.framework */; };
+		F09AAACF193140BF00C39F49 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F09AAAAE193140BF00C39F49 /* Cocoa.framework */; };
+		F09AAAE61931413200C39F49 /* Tank.m in Sources */ = {isa = PBXBuildFile; fileRef = F09AAAE51931413200C39F49 /* Tank.m */; };
+		F09AAAE91931436600C39F49 /* TankViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F09AAAE81931436600C39F49 /* TankViewController.m */; };
+		F09AAAEC1931443700C39F49 /* TankView.m in Sources */ = {isa = PBXBuildFile; fileRef = F09AAAEB1931443700C39F49 /* TankView.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F09AAAD0193140BF00C39F49 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F09AAAA3193140BF00C39F49 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F09AAAAA193140BF00C39F49;
+			remoteInfo = CocoaTanks;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F09AAAAB193140BF00C39F49 /* CocoaTanks.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CocoaTanks.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F09AAAAE193140BF00C39F49 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		F09AAAB1193140BF00C39F49 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		F09AAAB2193140BF00C39F49 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		F09AAAB3193140BF00C39F49 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		F09AAAB6193140BF00C39F49 /* CocoaTanks-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "CocoaTanks-Info.plist"; sourceTree = "<group>"; };
+		F09AAAB8193140BF00C39F49 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		F09AAABA193140BF00C39F49 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		F09AAABC193140BF00C39F49 /* CocoaTanks-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "CocoaTanks-Prefix.pch"; sourceTree = "<group>"; };
+		F09AAABE193140BF00C39F49 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		F09AAAC0193140BF00C39F49 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		F09AAAC1193140BF00C39F49 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		F09AAAC4193140BF00C39F49 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		F09AAAC6193140BF00C39F49 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		F09AAACC193140BF00C39F49 /* CocoaTanksTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CocoaTanksTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F09AAACD193140BF00C39F49 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		F09AAAE41931413200C39F49 /* Tank.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Tank.h; sourceTree = "<group>"; };
+		F09AAAE51931413200C39F49 /* Tank.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Tank.m; sourceTree = "<group>"; };
+		F09AAAE71931436600C39F49 /* TankViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TankViewController.h; sourceTree = "<group>"; };
+		F09AAAE81931436600C39F49 /* TankViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TankViewController.m; sourceTree = "<group>"; };
+		F09AAAEA1931443700C39F49 /* TankView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TankView.h; sourceTree = "<group>"; };
+		F09AAAEB1931443700C39F49 /* TankView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TankView.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F09AAAA8193140BF00C39F49 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F09AAAAF193140BF00C39F49 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F09AAAC9193140BF00C39F49 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F09AAACF193140BF00C39F49 /* Cocoa.framework in Frameworks */,
+				F09AAACE193140BF00C39F49 /* XCTest.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F09AAAA2193140BF00C39F49 = {
+			isa = PBXGroup;
+			children = (
+				F09AAAE41931413200C39F49 /* Tank.h */,
+				F09AAAE51931413200C39F49 /* Tank.m */,
+				F09AAAB4193140BF00C39F49 /* CocoaTanks */,
+				F09AAAAD193140BF00C39F49 /* Frameworks */,
+				F09AAAAC193140BF00C39F49 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F09AAAAC193140BF00C39F49 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F09AAAAB193140BF00C39F49 /* CocoaTanks.app */,
+				F09AAACC193140BF00C39F49 /* CocoaTanksTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F09AAAAD193140BF00C39F49 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F09AAAAE193140BF00C39F49 /* Cocoa.framework */,
+				F09AAACD193140BF00C39F49 /* XCTest.framework */,
+				F09AAAB0193140BF00C39F49 /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F09AAAB0193140BF00C39F49 /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F09AAAB1193140BF00C39F49 /* AppKit.framework */,
+				F09AAAB2193140BF00C39F49 /* CoreData.framework */,
+				F09AAAB3193140BF00C39F49 /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		F09AAAB4193140BF00C39F49 /* CocoaTanks */ = {
+			isa = PBXGroup;
+			children = (
+				F09AAAC0193140BF00C39F49 /* AppDelegate.h */,
+				F09AAAC1193140BF00C39F49 /* AppDelegate.m */,
+				F09AAAE71931436600C39F49 /* TankViewController.h */,
+				F09AAAE81931436600C39F49 /* TankViewController.m */,
+				F09AAAEA1931443700C39F49 /* TankView.h */,
+				F09AAAEB1931443700C39F49 /* TankView.m */,
+				F09AAAC3193140BF00C39F49 /* MainMenu.xib */,
+				F09AAAC6193140BF00C39F49 /* Images.xcassets */,
+				F09AAAB5193140BF00C39F49 /* Supporting Files */,
+			);
+			path = CocoaTanks;
+			sourceTree = "<group>";
+		};
+		F09AAAB5193140BF00C39F49 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F09AAAB6193140BF00C39F49 /* CocoaTanks-Info.plist */,
+				F09AAAB7193140BF00C39F49 /* InfoPlist.strings */,
+				F09AAABA193140BF00C39F49 /* main.m */,
+				F09AAABC193140BF00C39F49 /* CocoaTanks-Prefix.pch */,
+				F09AAABD193140BF00C39F49 /* Credits.rtf */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F09AAAAA193140BF00C39F49 /* CocoaTanks */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F09AAADC193140BF00C39F49 /* Build configuration list for PBXNativeTarget "CocoaTanks" */;
+			buildPhases = (
+				F09AAAA7193140BF00C39F49 /* Sources */,
+				F09AAAA8193140BF00C39F49 /* Frameworks */,
+				F09AAAA9193140BF00C39F49 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CocoaTanks;
+			productName = CocoaTanks;
+			productReference = F09AAAAB193140BF00C39F49 /* CocoaTanks.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F09AAACB193140BF00C39F49 /* CocoaTanksTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F09AAADF193140BF00C39F49 /* Build configuration list for PBXNativeTarget "CocoaTanksTests" */;
+			buildPhases = (
+				F09AAAC8193140BF00C39F49 /* Sources */,
+				F09AAAC9193140BF00C39F49 /* Frameworks */,
+				F09AAACA193140BF00C39F49 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F09AAAD1193140BF00C39F49 /* PBXTargetDependency */,
+			);
+			name = CocoaTanksTests;
+			productName = CocoaTanksTests;
+			productReference = F09AAACC193140BF00C39F49 /* CocoaTanksTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F09AAAA3193140BF00C39F49 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "Kent Miller";
+				TargetAttributes = {
+					F09AAACB193140BF00C39F49 = {
+						TestTargetID = F09AAAAA193140BF00C39F49;
+					};
+				};
+			};
+			buildConfigurationList = F09AAAA6193140BF00C39F49 /* Build configuration list for PBXProject "CocoaTanks" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F09AAAA2193140BF00C39F49;
+			productRefGroup = F09AAAAC193140BF00C39F49 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F09AAAAA193140BF00C39F49 /* CocoaTanks */,
+				F09AAACB193140BF00C39F49 /* CocoaTanksTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F09AAAA9193140BF00C39F49 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F09AAAB9193140BF00C39F49 /* InfoPlist.strings in Resources */,
+				F09AAAC7193140BF00C39F49 /* Images.xcassets in Resources */,
+				F09AAABF193140BF00C39F49 /* Credits.rtf in Resources */,
+				F09AAAC5193140BF00C39F49 /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F09AAACA193140BF00C39F49 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F09AAAA7193140BF00C39F49 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F09AAAE91931436600C39F49 /* TankViewController.m in Sources */,
+				F09AAAC2193140BF00C39F49 /* AppDelegate.m in Sources */,
+				F09AAAEC1931443700C39F49 /* TankView.m in Sources */,
+				F09AAABB193140BF00C39F49 /* main.m in Sources */,
+				F09AAAE61931413200C39F49 /* Tank.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F09AAAC8193140BF00C39F49 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F09AAAD1193140BF00C39F49 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F09AAAAA193140BF00C39F49 /* CocoaTanks */;
+			targetProxy = F09AAAD0193140BF00C39F49 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F09AAAB7193140BF00C39F49 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F09AAAB8193140BF00C39F49 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		F09AAABD193140BF00C39F49 /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F09AAABE193140BF00C39F49 /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		F09AAAC3193140BF00C39F49 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F09AAAC4193140BF00C39F49 /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F09AAADA193140BF00C39F49 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		F09AAADB193140BF00C39F49 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		F09AAADD193140BF00C39F49 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CocoaTanks/CocoaTanks-Prefix.pch";
+				INFOPLIST_FILE = "CocoaTanks/CocoaTanks-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		F09AAADE193140BF00C39F49 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CocoaTanks/CocoaTanks-Prefix.pch";
+				INFOPLIST_FILE = "CocoaTanks/CocoaTanks-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		F09AAAE0193140BF00C39F49 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/CocoaTanks.app/Contents/MacOS/CocoaTanks";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CocoaTanks/CocoaTanks-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "CocoaTanksTests/CocoaTanksTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		F09AAAE1193140BF00C39F49 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/CocoaTanks.app/Contents/MacOS/CocoaTanks";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CocoaTanks/CocoaTanks-Prefix.pch";
+				INFOPLIST_FILE = "CocoaTanksTests/CocoaTanksTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F09AAAA6193140BF00C39F49 /* Build configuration list for PBXProject "CocoaTanks" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F09AAADA193140BF00C39F49 /* Debug */,
+				F09AAADB193140BF00C39F49 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F09AAADC193140BF00C39F49 /* Build configuration list for PBXNativeTarget "CocoaTanks" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F09AAADD193140BF00C39F49 /* Debug */,
+				F09AAADE193140BF00C39F49 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F09AAADF193140BF00C39F49 /* Build configuration list for PBXNativeTarget "CocoaTanksTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F09AAAE0193140BF00C39F49 /* Debug */,
+				F09AAAE1193140BF00C39F49 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F09AAAA3193140BF00C39F49 /* Project object */;
+}
